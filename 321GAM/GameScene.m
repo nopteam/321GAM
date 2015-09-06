@@ -48,7 +48,6 @@
     /* Called before each frame is rendered */
 }
 
-
 #pragma mark PrivUtil
 - (e_side)getSideWithCGPoint:(CGPoint)point
 {
@@ -57,6 +56,18 @@
 	else
 		return LEFT;
 }
+
+- (void) createCircle: (float) radius{
+    
+    SKShapeNode *circle = [SKShapeNode shapeNodeWithCircleOfRadius:radius];
+    circle.fillColor = [SKColor redColor];
+    circle.lineWidth = 1;
+    circle.position = CGPointMake(self.size.width / 2, self.size.height - 40);
+    [self addChild:circle];
+	
+}
+
+
 
 - (void)handleTouch:(CGPoint)touch
 {
