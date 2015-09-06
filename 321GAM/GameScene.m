@@ -2,7 +2,7 @@
 //  GameScene.m
 //  321GAM
 //
-//  Created by Leonardo Cascianelli on 06/09/15.
+//  Created by Leonardo ; on 06/09/15.
 //  Copyright (c) 2015 Leonardo Cascianelli. All rights reserved.
 //
 
@@ -25,6 +25,7 @@
 
 -(void)didMoveToView:(SKView *)view {
 	[super didMoveToView:view];
+    [self createCircle: 30.0];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
