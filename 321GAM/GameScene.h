@@ -8,10 +8,14 @@
 
 #import <SpriteKit/SpriteKit.h>
 
+@class BGNode;
+
 typedef enum{
 	LEFT,RIGHT
 }e_side;
 
-@interface GameScene : SKScene
+@interface GameScene : SKScene{
+	BGNode* bgNode;
+}
 
 @end

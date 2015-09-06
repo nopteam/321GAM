@@ -16,16 +16,19 @@
     [super viewDidLoad];
 
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
+	SKView * skView = [[SKView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
-    
+	
+	self.view = skView;
+	
     // Create and configure the scene.
 	GameScene *scene = [[GameScene alloc] initWithSize:[UIScreen mainScreen].bounds.size];
 	scene.backgroundColor = [UIColor whiteColor];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
+    scene.scaleMode = SKSceneScaleModeAspectFit;
     
     // Present the scene.
     [skView presentScene:scene];
@@ -54,5 +57,6 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
+
 
 @end

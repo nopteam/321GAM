@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71720AA1B9C8F7100301E57 /* ScoreHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A71720A91B9C8F7100301E57 /* ScoreHandler.m */; };
+		A71720B91B9C936A00301E57 /* BGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A71720B81B9C936A00301E57 /* BGNode.m */; };
 		A7BE3E711B9C72430084FE62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE3E701B9C72430084FE62 /* main.m */; };
 		A7BE3E741B9C72430084FE62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE3E731B9C72430084FE62 /* AppDelegate.m */; };
 		A7BE3E771B9C72430084FE62 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE3E761B9C72430084FE62 /* GameScene.m */; };
 		A7BE3E7C1B9C72430084FE62 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE3E7B1B9C72430084FE62 /* GameViewController.m */; };
-		A7BE3E7F1B9C72430084FE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BE3E7D1B9C72430084FE62 /* Main.storyboard */; };
 		A7BE3E811B9C72430084FE62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BE3E801B9C72430084FE62 /* Images.xcassets */; };
 		A7BE3E841B9C72430084FE62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BE3E821B9C72430084FE62 /* LaunchScreen.xib */; };
 		A7BE3E901B9C72430084FE62 /* _21GAMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BE3E8F1B9C72430084FE62 /* _21GAMTests.m */; };
@@ -28,17 +29,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71720A81B9C8F7100301E57 /* ScoreHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreHandler.h; sourceTree = "<group>"; };
+		A71720A91B9C8F7100301E57 /* ScoreHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreHandler.m; sourceTree = "<group>"; };
+		A71720B71B9C936A00301E57 /* BGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGNode.h; sourceTree = "<group>"; };
+		A71720B81B9C936A00301E57 /* BGNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGNode.m; sourceTree = "<group>"; };
 		A7BE3E6B1B9C72430084FE62 /* 321GAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 321GAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BE3E6F1B9C72430084FE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BE3E701B9C72430084FE62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7BE3E721B9C72430084FE62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7BE3E731B9C72430084FE62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7BE3E751B9C72430084FE62 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		A7BE3E761B9C72430084FE62 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A7BE3E751B9C72430084FE62 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = 321GAM/GameScene.h; sourceTree = "<group>"; };
+		A7BE3E761B9C72430084FE62 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = 321GAM/GameScene.m; sourceTree = "<group>"; };
 		A7BE3E7A1B9C72430084FE62 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		A7BE3E7B1B9C72430084FE62 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		A7BE3E7E1B9C72430084FE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7BE3E801B9C72430084FE62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7BE3E801B9C72430084FE62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = 321GAM/Images.xcassets; sourceTree = "<group>"; };
 		A7BE3E831B9C72430084FE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A7BE3E891B9C72430084FE62 /* 321GAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 321GAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BE3E8E1B9C72430084FE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,10 +68,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71720A71B9C8F5800301E57 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A71720A81B9C8F7100301E57 /* ScoreHandler.h */,
+				A71720A91B9C8F7100301E57 /* ScoreHandler.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A71720AB1B9C919400301E57 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE3E751B9C72430084FE62 /* GameScene.h */,
+				A7BE3E761B9C72430084FE62 /* GameScene.m */,
+			);
+			name = Scenes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A71720AC1B9C91CE00301E57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE3E7A1B9C72430084FE62 /* GameViewController.h */,
+				A7BE3E7B1B9C72430084FE62 /* GameViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A71720AD1B9C91E600301E57 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE3E721B9C72430084FE62 /* AppDelegate.h */,
+				A7BE3E731B9C72430084FE62 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A71720AE1B9C920300301E57 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE3E991B9C78A50084FE62 /* dbg.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		A71720AF1B9C923500301E57 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A71720B71B9C936A00301E57 /* BGNode.h */,
+				A71720B81B9C936A00301E57 /* BGNode.m */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		A71720B31B9C926500301E57 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		A7BE3E621B9C72430084FE62 = {
 			isa = PBXGroup;
 			children = (
 				A7BE3E6D1B9C72430084FE62 /* 321GAM */,
+				A7BE3E801B9C72430084FE62 /* Images.xcassets */,
+				A7BE3E821B9C72430084FE62 /* LaunchScreen.xib */,
+				A7BE3E6E1B9C72430084FE62 /* Supporting Files */,
 				A7BE3E8C1B9C72430084FE62 /* 321GAMTests */,
 				A7BE3E6C1B9C72430084FE62 /* Products */,
 			);
@@ -85,17 +153,13 @@
 		A7BE3E6D1B9C72430084FE62 /* 321GAM */ = {
 			isa = PBXGroup;
 			children = (
-				A7BE3E721B9C72430084FE62 /* AppDelegate.h */,
-				A7BE3E731B9C72430084FE62 /* AppDelegate.m */,
-				A7BE3E751B9C72430084FE62 /* GameScene.h */,
-				A7BE3E761B9C72430084FE62 /* GameScene.m */,
-				A7BE3E7A1B9C72430084FE62 /* GameViewController.h */,
-				A7BE3E7B1B9C72430084FE62 /* GameViewController.m */,
-				A7BE3E7D1B9C72430084FE62 /* Main.storyboard */,
-				A7BE3E801B9C72430084FE62 /* Images.xcassets */,
-				A7BE3E821B9C72430084FE62 /* LaunchScreen.xib */,
-				A7BE3E6E1B9C72430084FE62 /* Supporting Files */,
-				A7BE3E991B9C78A50084FE62 /* dbg.h */,
+				A71720B31B9C926500301E57 /* Categories */,
+				A71720AF1B9C923500301E57 /* Elements */,
+				A71720AE1B9C920300301E57 /* Headers */,
+				A71720A71B9C8F5800301E57 /* Helpers */,
+				A71720AB1B9C919400301E57 /* Scenes */,
+				A71720AC1B9C91CE00301E57 /* Controllers */,
+				A71720AD1B9C91E600301E57 /* Delegate */,
 			);
 			path = 321GAM;
 			sourceTree = "<group>";
@@ -107,6 +171,7 @@
 				A7BE3E701B9C72430084FE62 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = 321GAM;
 			sourceTree = "<group>";
 		};
 		A7BE3E8C1B9C72430084FE62 /* 321GAMTests */ = {
@@ -208,7 +273,6 @@
 			files = (
 				A7BE3E841B9C72430084FE62 /* LaunchScreen.xib in Resources */,
 				A7BE3E811B9C72430084FE62 /* Images.xcassets in Resources */,
-				A7BE3E7F1B9C72430084FE62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +294,8 @@
 				A7BE3E741B9C72430084FE62 /* AppDelegate.m in Sources */,
 				A7BE3E771B9C72430084FE62 /* GameScene.m in Sources */,
 				A7BE3E711B9C72430084FE62 /* main.m in Sources */,
+				A71720B91B9C936A00301E57 /* BGNode.m in Sources */,
+				A71720AA1B9C8F7100301E57 /* ScoreHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,20 +318,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7BE3E7D1B9C72430084FE62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7BE3E7E1B9C72430084FE62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7BE3E821B9C72430084FE62 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A7BE3E831B9C72430084FE62 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = 321GAM;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,6 +479,7 @@
 				A7BE3E951B9C72430084FE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7BE3E961B9C72430084FE62 /* Build configuration list for PBXNativeTarget "321GAMTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +488,7 @@
 				A7BE3E981B9C72430084FE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
