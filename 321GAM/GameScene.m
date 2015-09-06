@@ -37,6 +37,7 @@
 		{
 			[self handleTouch:tPoint];
 		}
+		_info("LOL");
 		self.prevTouchLocation = tPoint;
 	}];
 }
