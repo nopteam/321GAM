@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
+typedef enum{
+	LEFT,RIGHT
+}e_side;
+
 @interface GameScene : SKScene
 
 @end

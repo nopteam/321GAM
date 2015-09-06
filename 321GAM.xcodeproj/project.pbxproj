@@ -43,6 +43,7 @@
 		A7BE3E891B9C72430084FE62 /* 321GAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 321GAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BE3E8E1B9C72430084FE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7BE3E8F1B9C72430084FE62 /* _21GAMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _21GAMTests.m; sourceTree = "<group>"; };
+		A7BE3E991B9C78A50084FE62 /* dbg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dbg.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				A7BE3E801B9C72430084FE62 /* Images.xcassets */,
 				A7BE3E821B9C72430084FE62 /* LaunchScreen.xib */,
 				A7BE3E6E1B9C72430084FE62 /* Supporting Files */,
+				A7BE3E991B9C78A50084FE62 /* dbg.h */,
 			);
 			path = 321GAM;
 			sourceTree = "<group>";
